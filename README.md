@@ -66,13 +66,13 @@ This system simplifies the question paper creation process by providing a questi
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/academic-question-paper-system.git
-cd academic-question-paper-system
+git clone https://github.com/dotnetmamun/QuestionPaperAPP.git
+cd QuestionPaperAPP
 ```
 
 ### **2. Setup Backend**
 ```bash
-cd AcademicQuestionPaperAPI
+cd QuestionAPI
 ```
 - Open the project in **Visual Studio 2022**.
 - Update the `appsettings.json` with your **database connection string**.
@@ -106,8 +106,8 @@ The frontend will run at: `http://localhost:3000`
 ## 🌐 API Endpoint
 | Endpoint         | Method | Description |
 |-----------------|--------|-------------|
-| `/QuestionAPP`   	| GET    | Get all questions |
-| `/QuestionAPP`   	| POST   | Add a new question |
+| `/QuestionAPP`   	    | GET    | Get all questions |
+| `/QuestionAPP`   	    | POST   | Add a new question |
 | `/QuestionAPP/{id}`   | GET    | Get details of specific question |
 | `/QuestionAPP/{id}`   | PUT    | Update existing question |
 | `/QuestionAPP/{id}`   | DELETE | Delete question |
